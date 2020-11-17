@@ -7,7 +7,7 @@ echo "Introduce el nombre del archivo a comprobar: "
 
 read ARCHIVO
 
-if [ -d $ARCHIVO ]; then
+if [ -e $ARCHIVO ]; then
 	cowsay "El archivo existe"
 else
 	echo "Sorry bro, no esite"
