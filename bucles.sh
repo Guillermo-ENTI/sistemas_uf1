@@ -10,7 +10,6 @@ for VARIABLE in alejandropresidente `ls | head -n 7` patatafrita; do
 	else
 		echo -e "\e[91m Sorry bro, el archibo $VARIABLE no esite.\e[0m"
 	fi
-	NUMERO_ITERACIONES=$((NUMERO_ITERACIONES + 1))
 done
 
 echo ""
