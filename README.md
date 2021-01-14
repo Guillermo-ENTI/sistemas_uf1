@@ -53,6 +53,6 @@ En este caso, me encontraría en el directorio /home/enti
 
 - history - "historial / histórico", muestra una enumeración completa de todos los comandos que se han utilizado en la sesión en la que ejecutas el comando.
 	- !n : ejecuta el comando de la línea "n" especificada.
-	- !- : ejecuta el comando anterior.
+	- !! : ejecuta el comando anterior.
 
 
