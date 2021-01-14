@@ -67,22 +67,27 @@ En este caso, me encontraría en el directorio /home/enti
 
 - mkdir - "**m**a**k**e **dir**ectory", crea un directorio con el nombre que elijas en el directorio en el que te encuentras. Ejemplo: mkdir sistemas_uf2
 
+- rmdir - "**r**e**m**ove **dir**ectory", elimina un directorio especificado únicamente si está vacío.
+
 - touch - crea un archivo vacío, aunque también puede hacer muchas otras cosas grácias a diferentes parámetros, como por ejemplo, cambiar la fecha de modificación de un archivo.
 
-- mv - "move", mueve o renombra un archivo.
+- rm - "**r**e**m**ove", elimina archivos o directorios.
+	- -r : si el directorio que deseas eliminar tiene archivos dentro, añadir este parámetro elimina el directorio recursivamente.
+	> Recursividad: Proceso basado en su propia definición. Es decir, eliminar un directorio lleno recursivamente, significaría que primero llega a un directorio que no contenga más directorios, y a partir de ahí irá borrando hacia atrás.
+
+- mv - "**m**o**v**e", mueve o renombra un archivo.
 	- Mover archivo: para mover un archivo, primero se debe especificar el archivo a mover, y acto seguido el directorio al que deseas moverlo, ya sea de forma relativa o absoluta. Ejemplo: mv ratas_pizza /home/enti/sistemas_uf1. En este caso estaríamos moviendo el archivo llamado "ratas_pizza" al directorio sistemas_uf1.
 	- Renombrar archivo: para renombrar un archivo, primero debemos especificar el archivo a renombrar y después el nuevo nombre del archivo. Es muy importante que el nuevo nombre no sea el de un archivo ya existente, porque en ese caso estaríamos destruyendo el antiguo para renombrar el actual.
 
-- rm
+- cat - "con**cat**enar", saca por la salida estándar, línea a línea, el contenido de un archivo.
 
-- rmdir
+- echo - "eco", saca por la salida estándar una string.
 
-- chmod
+- chmod - "**ch**ange **mod**e", cambia los permisos de acceso de un fichero o directorio.
+	- +x : otorga permisos de ejecución, necesaio para programas descargados desde internet o scripts caseros.
 
-- apt-get
+- apt-get - 
 
-- cat
 
-- echo
 
 - 
