@@ -10,7 +10,7 @@ Un comando hace una sola cosa, pero la hace bien. Esa acción puede ser una inte
 
 Además, un comando puede tener distintos parámetros, que irán siempre precedidos por un "-". Los parámetros modifican o especifican la función del comando, no todos los comandos tienen parámetros, y los que tienen, no son iguales los unos de los otros.
 
-- pwd - "print working directory", saca por la salida estándar el directorio en el que te encuentras actualmente.
+- pwd - "**p**rint **w**orking **d**irectory", saca por la salida estándar el directorio en el que te encuentras actualmente.
 	- Ejemplo: 
 	```
 	enti@guille:~$ pwd
@@ -23,7 +23,7 @@ En este caso, me encontraría en el directorio /home/enti
 >	- Relativa: Referirse a un directorio de manera relativa significa especificar la ruta hasta el directorio únicamente desde el directorio en el que te encuentras actualmente. Ejemplo: (Estando en el directorio /home/enti) cd sistemas_uf1
 
 
-- cd - "change directory", cambia al directorio especificado. 
+- cd - "**c**hange **d**irectory", cambia al directorio especificado. 
 	- Ejemplo:
 	```
 	enti@guille:~$ pwd
@@ -38,7 +38,7 @@ En este caso, me encontraría en el directorio /home/enti
 >	- El primero es el "..", que significa "el directorio padre", de esta forma, escribir cd .. te llevaría al directorio que contiene el directorio en el que te encuentras actualmente.
 >	- El otro atajo es "-", que en este caso significa "directorio anterior"
 
-- ls - "list", saca por la salida estándar una lista con todos los archivos que se encuentren en el directorio actual.
+- ls - "**l**i**s**t", saca por la salida estándar una lista con todos los archivos que se encuentren en el directorio actual.
 
 	Este comand tiene una serie de parámetros muy útiles que merece la pena nombrar:
 	- -l : muestra la lista en vertical con más información, como por ejemplo su tamaño o fecha de modificación.
@@ -52,8 +52,37 @@ En este caso, me encontraría en el directorio /home/enti
 
 	De esta forma, usando el parámetro -last / -lastr, obtendremos una lista de archivos con más información y de manera ordenada.
 
-- history - "historial / histórico", muestra una enumeración completa de todos los comandos que se han utilizado en la sesión en la que ejecutas el comando.
+- history - "historial / histórico", saca por la salida estándar una enumeración completa de todos los comandos que se han utilizado en la sesión en la que ejecutas el comando.
 	- !n : ejecuta el comando de la línea "n" especificada.
 	- !! : ejecuta el comando anterior.
+	> Ninguno de los anteriores comandos se deben usar junto al comando history, funcionan por sí mismos, simplemente el comando history es útil para utilizarlos.
 
+- man - "**man**ual", saca por la salida estándar un manual de uso del comando que especifiques. Ejemplo: man ls
 
+- whatis - "¿qué es...?", saca por la salida estándar la función del comando especificado concentrado en una sola línea. Ejemplo: whatis pwd
+
+- whereis - "¿dónde está...?, saca por la salida estándar la ruta de ciertos archivos.
+
+- whoami - "¿quién soy yo?, saca por la salida estándar el usuario en el que estás trabajando.
+
+- mkdir - "**m**a**k**e **dir**ectory", crea un directorio con el nombre que elijas en el directorio en el que te encuentras. Ejemplo: mkdir sistemas_uf2
+
+- touch - crea un archivo vacío, aunque también puede hacer muchas otras cosas grácias a diferentes parámetros, como por ejemplo, cambiar la fecha de modificación de un archivo.
+
+- mv - "move", mueve o renombra un archivo.
+	- Mover archivo: para mover un archivo, primero se debe especificar el archivo a mover, y acto seguido el directorio al que deseas moverlo, ya sea de forma relativa o absoluta. Ejemplo: mv ratas_pizza /home/enti/sistemas_uf1. En este caso estaríamos moviendo el archivo llamado "ratas_pizza" al directorio sistemas_uf1.
+	- Renombrar archivo: para renombrar un archivo, primero debemos especificar el archivo a renombrar y después el nuevo nombre del archivo. Es muy importante que el nuevo nombre no sea el de un archivo ya existente, porque en ese caso estaríamos destruyendo el antiguo para renombrar el actual.
+
+- rm
+
+- rmdir
+
+- chmod
+
+- apt-get
+
+- cat
+
+- echo
+
+- 
