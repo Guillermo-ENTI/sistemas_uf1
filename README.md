@@ -43,7 +43,7 @@ En este caso, me encontraría en el directorio /home/enti
 	Este comand tiene una serie de parámetros muy útiles que merece la pena nombrar:
 	- -l : muestra la lista en vertical con más información, como por ejemplo su tamaño o fecha de modificación.
 	- -a : muestra además, los archivos ocultos que se encuentren en este directorio.
-> Todo aquel archivo que tenga un "." al inicio de su nombre aparecerá oculto a menos que se use el párametro anteriormente nombrado.
+	>Todo aquel archivo que tenga un "." al inicio de su nombre aparecerá oculto a menos que se use el párametro anteriormente nombrado.
 
 	- -s : muestra los bloques de memoria que ocupa cada archivo (este parámetro no tiene demasiada utilidad, se utiliza para la regla mnemotécnica).
 	- -t : muestra la lista de archivos en orden de modificación del más reciente al menos reciente.
