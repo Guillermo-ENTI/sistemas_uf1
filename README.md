@@ -2,19 +2,19 @@
 Profesor: Rafa Laguna
 
 ## Índice:
-#### [Introducción](https://github.com/guillermoenti/sistemas_uf1#introducción "Introducción")
+###	Introducción
 
-#### Comandos
+###	Comandos
 
-#### Redirectores
+###	Redirectores
 
-#### Git
+###	Git
 
-#### Vim
+###	Vim
 
-#### Bash
+###	Bash
 
-#### Instalación de un sistema operativo
+###	Instalación de un sistema operativo
 
 ## Introducción:
 
@@ -103,6 +103,13 @@ En este caso, me encontraría en el directorio /home/enti
 
 - apt-get - 
 
+##Redirectores
 
+##Git
 
-- 
+##Vim
+
+##Bash
+
+##Instalación de un sistema operativo
+
