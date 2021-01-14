@@ -2,19 +2,19 @@
 Profesor: Rafa Laguna
 
 ## Índice:
-###	[Introducción](https://github.com/guillermoenti/sistemas_uf1#introducción)
+###	- [Introducción](https://github.com/guillermoenti/sistemas_uf1#introducción-1)
 
-###	[Comandos](https://github.com/guillermoenti/sistemas_uf1#comandos)
+###	- [Comandos](https://github.com/guillermoenti/sistemas_uf1#comandos-1)
 
-###	[Redirectores](https://github.com/guillermoenti/sistemas_uf1#redirectores)
+###	- [Redirectores](https://github.com/guillermoenti/sistemas_uf1#redirectores-1)
 
-###	[Git](https://github.com/guillermoenti/sistemas_uf1#git)
+###	- [Git](https://github.com/guillermoenti/sistemas_uf1#git-1)
 
-###	[Vim](https://github.com/guillermoenti/sistemas_uf1#vim)
+###	- [Vim](https://github.com/guillermoenti/sistemas_uf1#vim-1)
 
-###	[Bash](https://github.com/guillermoenti/sistemas_uf1#bash)
+###	- [Bash](https://github.com/guillermoenti/sistemas_uf1#bash-1)
 
-###	[Instalación de un sistema operativo](https://github.com/guillermoenti/sistemas_uf1#instalación-de-un-sistema-operativo)
+###	- [Instalación de un sistema operativo](https://github.com/guillermoenti/sistemas_uf1#instalación-de-un-sistema-operativo-1)
 
 ## Introducción:
 
