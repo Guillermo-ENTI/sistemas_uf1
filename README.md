@@ -6,6 +6,10 @@ Profesor: Rafa Laguna
 ## Comandos:
 En Linux, es necesario conocer los diferentes comandos para poder moverte por el sistema de forma rápida (a menudo mucho más rápida que con un entorno visual) y también poder hablar con él.
 
+Un comando hace una sola cosa, pero la hace bien. Esa acción puede ser una interacción con el sistema, como por ejemplo, cambiar de directorio actual, o también puede enviar cierta información por la salida estándar, si no se especifica una entrada estándar que reciba esa información, normalmente saldrá por la consola de comandos o la pantalla (el primer caso, que se recoja esa información, se explicará más adelante).
+
+Además, un comando puede tener distintos parámetros, que irán siempre precedidos por un "-". Los parámetros modifican o especifican la función del comando, no todos los comandos tienen parámetros, y los que tienen, no son iguales los unos de los otros.
+
 - pwd - "print working directory", te devuelve el directorio en el que te encuentras actualmente.
 	- Ejemplo: 
 	```
@@ -13,6 +17,12 @@ En Linux, es necesario conocer los diferentes comandos para poder moverte por el
 	/home/enti
 	```
 En este caso, me encontraría en el directorio /home/enti
+
+> Antes de continuar con el siguiente comando, es necesario entender dos conceptos: referirse a un directorio de manera **absoluta** y de forma **relativa**.
+	- Absoluta: Referirse a un directorio de manera absoluta significa especificar toda la ruta hasta el directorio en cuestión empezando desde el /root. Ejemplo: cd /home/sistemas_uf1
+	
+	- Relativa: Referirse a un directorio de manera relativa significa especificar la ruta hasta el directorio únicamente desde el directorio en el que te encuentras actualmente. Ejemplo: (Estando en el directorio /home/enti) cd sistemas_uf1
+
 
 - cd - "change directory", cambia al directorio especificado. 
 	- Ejemplo:
