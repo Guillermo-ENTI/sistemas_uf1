@@ -1,6 +1,21 @@
 # Sistemas informáticos - Documentación
 Profesor: Rafa Laguna
 
+## Índice:
+#### [Introducción](https://github.com/guillermoenti/sistemas_uf1#introducción "Introducción")
+
+#### Comandos
+
+#### Redirectores
+
+#### Git
+
+#### Vim
+
+#### Bash
+
+#### Instalación de un sistema operativo
+
 ## Introducción:
 
 ## Comandos:
