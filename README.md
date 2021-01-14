@@ -44,8 +44,15 @@ En este caso, me encontraría en el directorio /home/enti
 	- -l : muestra la lista en vertical con más información, como por ejemplo su tamaño o fecha de modificación.
 	- -a : muestra además, los archivos ocultos que se encuentren en este directorio.
 > Todo aquel archivo que tenga un "." al inicio de su nombre aparecerá oculto a menos que se use el párametro anteriormente nombrado.
+
 	- -s : muestra los bloques de memoria que ocupa cada archivo (este parámetro no tiene demasiada utilidad, se utiliza para la regla mnemotécnica).
 	- -t : muestra la lista de archivos en orden de modificación del más reciente al menos reciente.
 	- -r : muestra la lista de archivos del revés.
 
 	De esta forma, usando el parámetro -last / -lastr, obtendremos una lista de archivos con más información y de manera ordenada.
+
+- history - "historial / histórico", muestra una enumeración completa de todos los comandos que se han utilizado en la sesión en la que ejecutas el comando.
+	- !n : ejecuta el comando de la línea "n" especificada.
+	- !- : ejecuta el comando anterior.
+
+
