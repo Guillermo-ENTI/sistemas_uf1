@@ -14,6 +14,16 @@ En Linux, es necesario conocer los diferentes comandos para poder moverte por el
 	```
 En este caso, me encontraría en el directorio /home/enti
 
+```
+Antes del siguiente comando, se debe entender dos conceptos nuevos: moverse de directorio de manera *abosulta* y de manera *relativa*.
+
+	- Absoluta: Moverse de manera absoluta, significa espcificar toda la ruta hasta el directorio al que quieres moverte, siempre empezando por el /root.
+	Ejemplo: cd /home/enti/sistemas_uf1
+
+	- Relativa: Moverse de manera relativa significa especificar la ruta hasta el directorio únicamente desde el directorio en el que te encuentras actualmebte.
+	Ejemplo: (Estando en el directorio /home) cd enti/sistemas_uf1
+```
+
 - cd - "change directory", cambia al directorio especificado. 
 	- Ejemplo:
 	```
@@ -25,7 +35,9 @@ En este caso, me encontraría en el directorio /home/enti
 	```
 	En este caso, me encontraba en el directorio /home y grácias al ejemplo anterior sabemos que dentro de este directorio se encuentra el directorio "enti", por tanto, hemos cambiado a ese directorio.
 
-	En este comando hay un par de atajos a tener en cuenta.
-	El primero es el "..", que significa "el directorio padre", de esta forma, escribir cd .. te llevaría al directorio que contiene el directorio en el que te encuentras actualmente.
+	En este comando hay un par de atajos a tener en cuenta:
+	- El primero es "..", que significa "el directorio padre", de esta forma, escribir cd .. te llevaría al directorio que contiene el directorio en el que te encuentras actualmente.
 
-	El otro atajo es "-", que en este caso significa "directorio anterior"
+	- El otro atajo es "-", que en este caso significa "directorio anterior". Este atajo es muy útil si cambias de directorio de forma absoluta.
+
+- ls - "list", este comando muestra la lista de archivos que hay dentro del directorio en el que te encuentras.
