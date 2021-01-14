@@ -2,19 +2,19 @@
 Profesor: Rafa Laguna
 
 ## Índice:
-###	Introducción
+###	[Introducción](https://github.com/guillermoenti/sistemas_uf1#introducción)
 
-###	Comandos
+###	[Comandos](https://github.com/guillermoenti/sistemas_uf1#comandos)
 
-###	Redirectores
+###	[Redirectores](https://github.com/guillermoenti/sistemas_uf1#redirectores)
 
-###	Git
+###	[Git](https://github.com/guillermoenti/sistemas_uf1#git)
 
-###	Vim
+###	[Vim](https://github.com/guillermoenti/sistemas_uf1#vim)
 
-###	Bash
+###	[Bash](https://github.com/guillermoenti/sistemas_uf1#bash)
 
-###	Instalación de un sistema operativo
+###	[Instalación de un sistema operativo](https://github.com/guillermoenti/sistemas_uf1#instalación-de-un-sistema-operativo)
 
 ## Introducción:
 
@@ -103,13 +103,13 @@ En este caso, me encontraría en el directorio /home/enti
 
 - apt-get - 
 
-##Redirectores
+## Redirectores
 
-##Git
+## Git
 
-##Vim
+## Vim
 
-##Bash
+## Bash
 
-##Instalación de un sistema operativo
+## Instalación de un sistema operativo
 
